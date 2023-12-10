@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Young Serif', serif;
+}
+p{
+    font-size: 22px;
+    font-family: 'Lugrasimo', sans-serif;
+
+}
+section{
+    color: white;
+    min-height: 100vh;
+    background-image: linear-gradient(#000000ec, #000000ec), url(wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    line-height: 100px;
+}
+.content button{
+    width: 250px;
+    height: 80px;
+    border: 2px white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-family: 'Lugrasimo', sans-serif;
+    font-size: 20px;
+    transition: 0.3s ;
+}
+.content button:hover{
+    background-color: rgba(85, 84, 84, 0.787);
+    color: white;
+}
